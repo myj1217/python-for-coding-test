@@ -24,6 +24,7 @@ graph = [
 ]
 
 # 각 노드가 방문된 정보를 리스트 자료형으로 표현 (1차원 리스트)
+# visited의 모든 값을 False로 초기화
 visited = [False] * 9
 
 # 정의된 DFS 함수 호출
